@@ -197,6 +197,17 @@
     #define LCD_PINS_D7              EXP1_01_PIN
     #define ADC_KEYPAD_PIN                     1
 
+  #elif ENABLED(ANET_FULL_GRAPHICS_LCD)
+
+    #define BEEPER_PIN             EXP1_01_PIN
+
+    #define BTN_ENC                EXP1_03_PIN
+    #define BTN_EN1                EXP1_05_PIN
+    #define BTN_EN2                EXP1_07_PIN
+
+    #define DOGLCD_A0              EXP1_08_PIN
+    #define DOGLCD_CS              EXP1_06_PIN
+
   #elif IS_RRD_FG_SC
 
     // Pin definitions for the Anet A6 Full Graphics display and the RepRapDiscount Full Graphics
